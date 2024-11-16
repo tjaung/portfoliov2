@@ -11,7 +11,7 @@ const Home = ({ className, navigate }) => {
           Hello, my name is <span className="text-indigo-500">Tim.</span>
         </h1>
         <p className="text-lg sm:text-2xl max-w-md sm:max-w-lg mb-8">
-          I'm a fullstack developer in Boston.
+          {`I&apos;m a fullstack developer in Boston.`}
         </p>
         {/* Social Links */}
         <div className="flex gap-6 mb-8">

@@ -46,7 +46,7 @@ const Contact = ({classname, navigate}) => {
       <h1 className="text-4xl sm:text-5xl font-bold text-indigo-500 mb-8">Contact Me</h1>
       
       <p className="text-lg max-w-lg text-center mb-12">
-        I'd love to hear from you! Whether you have a question, proposal, or just want to say hi, feel free to get in touch using the form below or through my social media.
+        {`I&apos;d love to hear from you! Whether you have a question, proposal, or just want to say hi, feel free to get in touch using the form below or through my social media.`}
       </p>
       
       {/* Contact Form */}

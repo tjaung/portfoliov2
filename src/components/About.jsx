@@ -71,7 +71,7 @@ const About = ({navigate}) => {
           <h2 className="text-2xl font-semibold mb-2">Who I Am</h2>
           <div className='flex flex-col md:flex-row items-center justify-center md:p-5 gap-20'>
             <p className="text-lg leading-relaxed">
-                Hi, I’m Tim, a full-stack developer based in Boston with a background in Data Science and a deep passion for creating impactful web applications. Currently, I'm pursuing a master’s in Computer Science at Northeastern University, where I’m further honing my skills and expanding my expertise in technology.
+                {`Hi, I&apos;m Tim, a full-stack developer based in Boston with a background in Data Science and a deep passion for creating impactful web applications. Currently, I'm pursuing a master’s in Computer Science at Northeastern University, where I’m further honing my skills and expanding my expertise in technology.`}
             </p>
             <Image 
                 className="profile-image h-[200px] rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:rotate-1"
@@ -103,8 +103,8 @@ const About = ({navigate}) => {
         <section>
           <h2 className="text-2xl font-semibold mb-6">My Journey</h2>
           <p className="text-lg leading-relaxed md:p-5 mb-32">
-            I've loved programming ever since I was little, however, somewhere along the way I became passionate about becoming and educator. I put my coding enjoyment to the side and worked towards
-            education. Eventually, I realized that it was not the career I wanted to do for the rest of my life, so I picked my love of programmin back up and have continued on this path.
+            {`I&apos;ve loved programming ever since I was little, however, somewhere along the way I became passionate about becoming and educator. I put my coding enjoyment to the side and worked towards
+            education. Eventually, I realized that it was not the career I wanted to do for the rest of my life, so I picked my love of programmin back up and have continued on this path.`}
           </p>
           <div className="timeline">
             {timelineItems.map((item, index) => (
