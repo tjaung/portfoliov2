@@ -60,35 +60,6 @@ const timelineItems = [
 
 
 const About = ({navigate}) => {
-
-  const journeyRef = useRef([]);
-
-  // Observer to trigger animations
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add("visible");
-          }
-        });
-      },
-      { threshold: 0.5 }
-    );
-
-    journeyRef.current.forEach((el) => {
-      if (el) observer.observe(el);
-    });
-
-    return () => {
-      if (journeyRef.current) {
-        journeyRef.current.forEach((el) => {
-          if (el) observer.unobserve(el);
-        });
-      }
-    };
-  }, []);
-
   return (
     <div className="min-h-screen flex flex-col items-center justify-center p-0 md:p-8 ">
       <h1 className="text-4xl sm:text-5xl font-bold text-indigo-500 mb-8 md:mb-32">About Me</h1>
