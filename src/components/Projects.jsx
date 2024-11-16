@@ -73,7 +73,7 @@ const Projects = ({ className, navigate }) => {
     <div className="min-h-screen flex flex-col items-center justify-center p-0 md:p-8 ">
       <h1 className="text-4xl sm:text-5xl font-bold text-indigo-500 mb-8">My Projects</h1>
         <div className="text-center w-full mt-0  md:mt-12 mb-52 px-0 md:px-4 flex flex-col items-center justify-center relative">
-            <div className='flex flex-col md:flex-row'>
+            <div className='flex flex-col lg:flex-row'>
               <div className='md:w-7/12 py-5 px-12 mt-8 md:text-left'>
                 <p className="text-lg mb-4 md:px-24">
                   I&apos;ve been building fullstack applications for a wide user audience. My inspiration for each one has either been a necessity in my own life, driven by a passion, or spawned from a fleeting idea.
