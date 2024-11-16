@@ -23,7 +23,7 @@ const frontEnd = [
     { icon: <NextJsIcon />, label: 'Next.js', color: '#61DAFB' },
     { icon: <TailwindIcon />, label: 'Tailwind', color: '#61DAFB' },
     { icon: <ThreeJsIcon />, label: 'Three JS', color: '#61DAFB'},
-    { icon: <FaHtml5 />, label: 'Tailwind', color: '#61DAFB' },
+    { icon: <FaHtml5 />, label: 'HTML', color: '#61DAFB' },
     { icon: <FaCss3Alt />, label: 'css', color: '#61DAFB' },
     { icon: <TypescriptIcon />, label: 'TypeScript', color: '#61DAFB' },
     { icon: <FaJs />, label: 'JavaScript', color: '#61DAFB' },
@@ -103,8 +103,9 @@ const About = ({navigate}) => {
         <section>
           <h2 className="text-2xl font-semibold mb-6">My Journey</h2>
           <p className="text-lg leading-relaxed md:p-5 mb-32">
-            {`I've loved programming ever since I was little, however, somewhere along the way I became passionate about becoming and educator. I put my coding enjoyment to the side and worked towards
-            education. Eventually, I realized that it was not the career I wanted to do for the rest of my life, so I picked my love of programmin back up and have continued on this path.`}
+            {`I've loved programming ever since I was little, however, somewhere along the way I became passionate about becoming a teacher. I put my coding enjoyment to the side and worked towards
+            making it in education. Eventually, I realized that it was not the career I wanted to do for the rest of my life, so I picked my love of programming back up and have continued on this path ever since. I am determined 
+            to become a great developer and I will make it happen. This page is to log my journey as well as share my creations with the rest of the world.`}
           </p>
           <div className="timeline">
             {timelineItems.map((item, index) => (
