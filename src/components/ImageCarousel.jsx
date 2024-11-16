@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { FaArrowDown, FaArrowLeft, FaArrowRight } from 'react-icons/fa';
+import Image from 'next/image';
 
 const ImageCarousel = ({ images }) => {
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -11,7 +12,7 @@ const ImageCarousel = ({ images }) => {
     return (
       <div className="relative w-full max-w-md">
         {/* Display the current image */}
-        <img
+        <Image
           src={images[currentIndex]}
           alt="Project Image"
           className="rounded-lg w-full h-64 object-cover cursor-pointer"
@@ -39,7 +40,7 @@ const ImageCarousel = ({ images }) => {
               >
                 X
               </button>
-              <img src={images[currentIndex]} alt="Expanded Project" className="w-full h-auto rounded-lg" />
+              <Image src={images[currentIndex]} alt="Expanded Project" className="w-full h-auto rounded-lg" />
             </div>
           </div>
         )}

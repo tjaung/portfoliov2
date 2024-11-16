@@ -29,7 +29,7 @@ const CodeTyping = ({ classname }) => {
     } else {
       setTheme("shades-of-purple");
     }
-  });
+  },[classname]);
 
   const content = `
     <p>import java.util.ArrayList;</p>

@@ -13,6 +13,8 @@ import MLIcon from './Icons/MLIcon';
 import SparkIcon from './Icons/SparkIcon';
 import AirflowIcon from './Icons/AirflowIcon';
 import ThreeJsIcon from './Icons/ThreeJsIcon';
+import Image from 'next/image';
+
 import './css/About.css'
 
 
@@ -71,7 +73,7 @@ const About = ({navigate}) => {
             <p className="text-lg leading-relaxed">
                 Hi, I’m Tim, a full-stack developer based in Boston with a background in Data Science and a deep passion for creating impactful web applications. Currently, I'm pursuing a master’s in Computer Science at Northeastern University, where I’m further honing my skills and expanding my expertise in technology.
             </p>
-            <img 
+            <Image 
                 className="profile-image h-[200px] rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:rotate-1"
                 src={'/images/about/me.jpg'} 
                 alt="Profile image of Tim"

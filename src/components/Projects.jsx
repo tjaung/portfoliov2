@@ -76,7 +76,7 @@ const Projects = ({ className, navigate }) => {
             <div className='flex flex-col md:flex-row'>
               <div className='md:w-7/12 py-5 px-12 mt-8 md:text-left'>
                 <p className="text-lg mb-4 md:px-24">
-                  I've been building fullstack applications for a wide user audience. My inspiration for each one has either been a necessity in my own life, driven by a passion, or spawned from a fleeting idea.
+                  I&apos;ve been building fullstack applications for a wide user audience. My inspiration for each one has either been a necessity in my own life, driven by a passion, or spawned from a fleeting idea.
                 </p>
                 <p className="text-lg md:px-24">
                   I hope that you can get to use my applications as well to get some purposeful use, or just to have some fun with it.
