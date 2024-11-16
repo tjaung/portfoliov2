@@ -1,0 +1,33 @@
+input[type="text"], textarea {
+
+    background-color : none; 
+  
+  }
+
+input[type="email"], textarea {
+
+background-color : none; 
+
+}
+
+input[type="text"], textarea {
+
+background-color : none; 
+
+}
+
+/* Ensure the canvas is positioned behind content */
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  pointer-events: none; /* Ignore mouse events */
+}
+
+.contact-container {
+  position: relative;
+  z-index: 10;
+  backdrop-filter: blur(8px); /* Add a frosted glass effect */
+  background: rgba(255, 255, 255, 0.8); /* Transparent white background */
+}

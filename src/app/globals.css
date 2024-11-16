@@ -13,9 +13,10 @@
     --foreground: #ededed;
   }
 }
-
-body {
+html, body {
+  overflow-y: auto;
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+  
 }
