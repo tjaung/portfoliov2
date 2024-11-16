@@ -4,7 +4,7 @@ import CodeTyping from './CodeTyping';
 
 const Home = ({ className, navigate }) => {
   return (
-    <div className={`${className} h-full w-full flex flex-col md:flex-row items-center md:items-start justify-center sm:justify-start px-4`}>
+    <div className={`${className} h-full w-full flex flex-col md:flex-row items-center md:items-start justify-center sm:justify-start px-4 md:p-32`}>
       {/* Centered on mobile, Left-aligned on larger screens */}
       <div className="z-10 flex flex-col items-center sm:items-start text-center sm:text-left p-6 sm:p-8 max-w-[90%]  mx-auto sm:ml-8">
         <h1 className="text-4xl sm:text-6xl font-bold mb-4">
